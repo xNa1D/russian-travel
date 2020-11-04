@@ -1,0 +1,36 @@
+.cover {
+  width: calc(100% - 48px*2);
+  display: flex;
+  background: url(../../images/cover-trains.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-family: 'Inter';
+  margin: 92px auto 0;
+}
+
+.cover::after {
+  content: "";
+  width: 0;
+  height: 0;
+  margin-left: -1px;
+  padding-top: calc(740 / 1184 * 100%);
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin: 90px auto 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    margin: 66px auto 0;
+  }
+}
