@@ -3,19 +3,19 @@
   grid-area: image;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .place__image {
     width: 440px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 450px) and (max-width: 768px) {
   .place__image {
     width: 340px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .place__image {
     width: 100%;
   }

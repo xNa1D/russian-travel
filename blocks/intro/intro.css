@@ -4,20 +4,20 @@
   font-family: 'Inter';
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .intro {
     width: calc(100% - 2*48px);
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 450px) and (max-width: 768px) {
   .intro {
     width: calc(100% - 2*24px);
     margin: 88px auto 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .intro {
     width: calc(100% - 2*16px);
     margin: 64px auto 0;
