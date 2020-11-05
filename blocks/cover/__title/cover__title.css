@@ -6,9 +6,10 @@
   margin: 0;
 }
 
-@media screen and (min-width: 450px) and (max-width: 768px) {
+@media screen and (min-width: 450px) and (max-width: 540px) {
   .cover__title {
-    font-size: calc(72/540*100vw);
+    font-size: 52px;
+    line-height: 55px;
   }
 }
 @media screen and (max-width: 450px) {
