@@ -3,7 +3,7 @@
   width: calc(100% - 48px*2);
   display: flex;
   justify-content: space-between;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
 }
 
 @media screen and (min-width: 450px) and (max-width: 768px) {
